@@ -1,0 +1,4 @@
+- Koodissa tulisi olla sopiva määrä kommentteja
+- Funkioiden ja muuttujien nimet tulisi olla kuvaavia
+- Eri vaiheiden välille tyhjä rivi
+- Koko koodi tulisi olla kirjoitettu samalla tyylillä
