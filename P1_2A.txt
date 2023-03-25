@@ -1,3 +1,3 @@
-bad.c tulostaa joulurunon
+bad.c tulostaa joulurunon.
 
-badcode.c pyytää käyttäjältä merkkejä ja muuttaa ne morse koodiksi
+badcode.c pyytää käyttäjältä merkkejä ja muuttaa ne morse koodiksi.
