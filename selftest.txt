@@ -1,0 +1,73 @@
+int convert_into_mm(int m,int cm,int mm)
+{
+    int result = 0;
+    result = result + (m*1000) + (cm*10) + mm;
+    return result;
+}
+
+
+#include <stdio.h>
+
+int dayname(int daynumber);
+int main(void)
+{
+    int daynumber = 0;
+    printf("Enter day number (1-7): ");
+    scanf("%d", &daynumber);
+    printf("The corresponding day is ");
+    dayname(daynumber);
+}
+
+int dayname(int daynumber)
+{
+    switch(daynumber)
+    {
+        case 1:
+        printf("Monday");
+        break;
+        
+        case 2:
+        printf("Tuesday");
+        break;
+        
+        case 3:
+        printf("Wednesday");
+        break;
+        
+        case 4:
+        printf("Thursday");
+        break;
+        
+        case 5:
+        printf("Friday");
+        break;
+        
+        case 6:
+        printf("Saturday");
+        break;
+        
+        case 7:
+        printf("Sunday");
+        break;
+        
+        default:
+        printf("Number is not a weekday number");
+    }
+    return 0;
+}
+
+
+
+
+
+void clean_nl_from_sring(char s[])
+{
+    while(s[strlen(s)-1] == '\n')
+    {
+    if(s[strlen(s)-1] == '\n')
+    {
+        s[strlen(s)-1] = '\0';
+    }
+    }
+    
+}
